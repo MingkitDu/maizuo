@@ -1,0 +1,83 @@
+@import "./px2rem.scss";
+.my-accordion{
+    padding-top: px2rem(47);
+}
+.my-accordion .pad .am-accordion-content-box {
+  padding: 0.2rem;
+}
+.my-accordion .my-list .am-list-body {
+  border-top: 0;
+}
+.my-accordion .my-list .am-list-body:after {
+  border-bottom: 0;
+}
+.am-accordion .am-accordion-item .am-accordion-header{
+    background-color: #e1e1e1;
+    color: #636363;
+    height: px2rem(40);
+    line-height: px2rem(40);
+    font-size: px2rem(14);
+    margin-bottom:px2rem(3);
+    cursor: pointer;
+    padding-left: px2rem(16);
+}
+.cinema-name{
+    display: flex;
+    vertical-align: text-top;
+    width: 100%;
+    font-size: px2rem(16); 
+    justify-content: space-between;
+    align-items: center;
+    span{
+        max-width: 70%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    i{
+        color: #d9d9d9;
+    }
+}
+.cinema-add{
+    display: inline-block;
+    font-size: px2rem(12);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 80%;
+    color: #ccc;
+}
+.cinema-s{
+    font-size: px2rem(12);
+    color: #ccc;
+}
+
+.eat{
+    
+}
+
+.active{
+    .SUNDRY{
+        display: inline-block;
+        background-color: #51add0;
+        border-radius:px2rem(3);
+        padding: 0 px2rem(5);
+        margin: 0 px2rem(5);
+        color: #fff;
+        font-size: px2rem(12);
+        height: px2rem(15);
+        line-height: px2rem(15);
+    }
+    span{
+        display: inline-block;
+        background-color: #ff9658;
+        border-radius:px2rem(3);
+        padding: 0 px2rem(5);
+        margin: 0 px2rem(5);
+        color: #fff;
+        font-size: px2rem(12);
+        height: px2rem(15);
+        line-height: px2rem(15);
+    }
+    
+}

@@ -1,0 +1,57 @@
+@import "./px2rem.scss";
+
+.comee{
+    display: flex;
+    border-bottom: px2rem(1) dashed #c9c9c9;
+    padding: px2rem(20) 0;
+    width: 100%;
+    .comee-l{
+        img{
+            height: px2rem(83);
+            margin-left: px2rem(5);
+        }
+    }
+    .comee-r{
+        padding-left: px2rem(15);
+        p{
+            &:nth-child(1){
+                line-height: px2rem(32);
+                font-size: px2rem(16);
+               
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: px2rem(220);
+                span{
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    width: 70%; 
+                }
+                i{
+                    color: #d9d9d9;
+                }
+            }
+            &:nth-child(2){
+                font-size: px2rem(12);
+                line-height: px2rem(24);
+                height: px2rem(24);
+                color: #8e8e8e;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            &:nth-child(3){
+                font-size: px2rem(12);
+                line-height: px2rem(24);
+                color: #ffb375;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                span{
+                    margin-right: px2rem(16);
+                }
+            }
+        }
+    }
+}

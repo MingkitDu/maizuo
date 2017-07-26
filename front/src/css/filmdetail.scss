@@ -1,0 +1,54 @@
+@import "./px2rem.scss";
+
+.detail{
+    padding-top: px2rem(47);
+    img{
+        width: 100%;
+    }
+    .film-word1{
+        margin: px2rem(16) auto;
+        border-left: px2rem(16) solid RGB(228, 200, 156);
+        font-size: px2rem(16);
+        height: px2rem(20);
+        line-height: px2rem(20);
+        padding-left: px2rem(4);
+    }
+    .film-word2{
+        height: px2rem(18);
+        overflow: hidden;
+        margin-bottom: px2rem(10);
+        padding-left: px2rem(20);
+        font-size: px2rem(12); 
+        display: flex;
+        padding-right: px2rem(20);
+        .actor{
+            display: block;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+    }
+    .film-word3{
+        text-overflow: ellipsis;
+        margin-bottom: px2rem(80);
+        padding-left: px2rem(20);
+        padding-right: px2rem(20);
+        line-height: px2rem(17);
+        font-size: px2rem(12); 
+    }
+}
+.buybtn{
+    font-size: px2rem(14);
+    height: px2rem(36);
+    width: px2rem(156);
+    line-height: px2rem(36);
+    border: none;
+    background-color: #fe8233;
+    padding: 0;
+    margin: 0 auto;
+    border-radius: px2rem(18);
+    color: #fff;
+    position: fixed;
+    bottom: px2rem(30);
+    left: 0;
+    right: 0;
+}

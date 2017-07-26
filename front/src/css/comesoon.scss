@@ -1,0 +1,42 @@
+@import "./px2rem.scss";
+
+.come{
+    width: px2rem(320);
+    margin: px2rem(15) auto;
+    box-shadow: 0.5px 0.5px 1px #a8a8a8;
+    img{
+        width: 100%;
+    }
+    .come-b{
+        height: px2rem(35);
+        background: #f9f9f9;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .come-b-l{
+            font-size: px2rem(12);
+            margin-left: px2rem(15);
+        }
+        .come-b-r{
+            font-size: px2rem(12);
+            margin-right: px2rem(30);
+            color: #f5a987;
+        }
+    }
+}
+.morecome-btn{
+    width: px2rem(158);
+    height: px2rem(28);
+    border: px2rem(1) solid #aaa;
+    border-radius: px2rem(15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #ebebeb;
+    font-size: px2rem(12);
+    color: #616161;
+    margin-bottom: px2rem(50);
+    position: relative;
+    z-index: 1;
+}

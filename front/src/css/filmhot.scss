@@ -1,0 +1,28 @@
+@import "./px2rem.scss";
+
+.tabs{
+    padding-top: px2rem(47);
+    display: flex;
+    height: px2rem(40);
+    box-sizing: content-box;
+    border-bottom: px2rem(1) solid #fe6e00;
+    .tabs-l{
+       line-height: px2rem(40);
+       width: 50%;
+       text-align: center;
+       color: #fe6e00;
+       font-size: px2rem(14);
+       font-weight: bolder;
+       border-bottom: px2rem(2) solid #fe6e00;
+    }
+    .tabs-r{
+       line-height: px2rem(40);
+       width: 50%;
+       text-align: center;
+       color: #6a6a6a;
+       font-size: px2rem(14);
+       font-weight: bolder;
+       position: relative;
+       z-index: 1;
+    }
+}

@@ -1,0 +1,65 @@
+@import "./px2rem.scss";
+
+.hot{
+    width: px2rem(320);
+    margin: px2rem(15) auto;
+    box-shadow: 0.5px 0.5px 1px #a8a8a8;
+    img{
+        width: 100%;
+    }
+    .hot-b{
+        height: px2rem(50);
+        background: #f9f9f9;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .hot-b-l{
+            margin-left: px2rem(15);
+            .mName{
+                font-size: px2rem(12);
+            }
+            .mMessage{
+                font-size: px2rem(12);
+                color: #9d9d9d; 
+            }
+        }
+        .hot-b-r{
+            color: #f78360;
+            margin-right: px2rem(15);
+            font-size: px2rem(18);
+        }
+    }
+}
+.morehot-btn{
+    width: px2rem(158);
+    height: px2rem(28);
+    border: px2rem(1) solid #aaa;
+    border-radius: px2rem(15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #ebebeb;
+    font-size: px2rem(12);
+    color: #616161;
+    position: relative;
+    z-index: 1;
+}
+.dividing-line{
+    position: relative;
+    border-bottom: px2rem(1) solid #a8a8a8;
+    margin: px2rem(30) 0;
+    margin-bottom: px2rem(40);
+    .upcoming{
+        width: px2rem(65);
+        height: px2rem(20);
+        background-color:#a7a7a7;
+        margin: 0 auto;
+        border-radius: px2rem(5);
+        color: #fff;
+        font-size: px2rem(10);
+        line-height: px2rem(20);
+        text-align: center;
+        margin-bottom: px2rem(-10);  
+    }
+}

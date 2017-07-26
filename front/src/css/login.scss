@@ -1,0 +1,99 @@
+@import "./px2rem.scss";
+
+.Users{
+    padding-top: px2rem(47);
+    position: relative;
+    z-index: 1;
+    .form{
+        padding: 0 px2rem(31);
+        margin-top: px2rem(50); 
+        width: 100%;
+        .error{
+            display: block;
+            height: px2rem(16);
+            color: #fe8233;
+            padding-left: px2rem(8);
+            font-size: px2rem(12);
+            line-height: px2rem(16);
+        }
+        .user-name{
+            position: relative;
+            input{
+                border: none;
+                background-color: #ebebeb;
+                border-radius: 0px;
+                box-shadow: none;
+                outline: none;
+                display: block;
+                width: 100%;
+                height: px2rem(34);
+                padding: px2rem(6) px2rem(12);
+                font-size: px2rem(14);
+                line-height: px2rem(34);
+                color: #555;
+            }
+            .check{
+                width: px2rem(95);
+                height: px2rem(30);
+                background-color: #29a097;
+                color: #fff;
+                position: absolute;
+                right: px2rem(5);
+                top: px2rem(-5);
+                text-align:center;
+                line-height: px2rem(30);
+                border-radius:px2rem(3);
+                display: none;
+                font-size: px2rem(12);
+            }
+            .input-bg{
+                position: absolute;
+                top: px2rem(20);
+                height: px2rem(12);
+                width: 100%;
+                border: solid #c4c4c4;
+                border-width: 0 1px 1px 1px;
+            }
+        }
+        .user-psw{
+            position: relative;
+            margin-top: px2rem(30); 
+            input{
+                border: none;
+                background-color: #ebebeb;
+                border-radius: 0px;
+                box-shadow: none;
+                outline: none;
+                display: block;
+                width: 100%;
+                height: px2rem(34);
+                padding: px2rem(6) px2rem(12);
+                font-size: px2rem(14);
+                line-height: px2rem(34);
+                color: #555;
+            }
+            .input-bg{
+                position: absolute;
+                top: px2rem(20);
+                height: px2rem(12);
+                width: 100%;
+                border: solid #c4c4c4;
+                border-width: 0 1px 1px 1px;
+            }
+        }
+        .login-btn{
+                width: px2rem(163);
+                background-color: #fe8233;
+                color: #fff;
+                border: none;
+                border-radius: px2rem(36);
+                margin: 0 auto;
+                margin-top: px2rem(45);
+                padding: px2rem(8) px2rem(12);
+                font-size: pa2rem(15);
+                outline: none;
+                display: block;
+        }
+    }
+    
+}
